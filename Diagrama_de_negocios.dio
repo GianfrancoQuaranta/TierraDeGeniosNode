@@ -1,0 +1,139 @@
+<mxfile host="65bd71144e">
+    <diagram id="ClNstc5jSjGIkZQt16Bn" name="Página-1">
+        <mxGraphModel dx="2949" dy="1366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="44" value="LOGIN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="560" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="ENTERPRISES" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="470" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="FOUNDATION" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="680" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="ADMIN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="680" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="APPLICANTS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="470" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="HOME / ENTERPRISE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="291" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="HOME / APPLICANTS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="290" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="ENTERPRISE PROFILE&lt;br&gt;&lt;br&gt;/ enterprise / :id" style="whiteSpace=wrap;html=1;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="160" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="ENTERPRISE PROFILE EDIT&lt;br&gt;&lt;br&gt;/ enterprises / :id / edit" style="whiteSpace=wrap;html=1;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="160" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="DASHBOARD&amp;nbsp;&lt;br&gt;ENTERPRISE&lt;br&gt;&lt;br&gt;/ enterprises / :id / dashboard" style="whiteSpace=wrap;html=1;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="160" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="DASHBOARD&amp;nbsp;&lt;br&gt;ENTERPRISE&lt;br&gt;DETAIL&lt;br&gt;ESTUDIANTES&lt;br&gt;&lt;br&gt;/ enterprises / :id / dashboard / :idEstudiantes" style="whiteSpace=wrap;html=1;spacing=13;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="161" width="120" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="FOUNDATION&lt;br&gt;PROFILE&lt;br&gt;&lt;br&gt;/ foundation / :id" style="whiteSpace=wrap;html=1;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="680" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="DASHBOARD&lt;br&gt;FOUNDATION&lt;br&gt;&lt;br&gt;/ foundation / :id / dashboard" style="whiteSpace=wrap;html=1;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="680" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="FOUNDATION&lt;br&gt;PROFILE EDIT&lt;br&gt;&lt;br&gt;/ foundation / :id / edit" style="whiteSpace=wrap;html=1;spacing=10;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="680" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="REGISTER&amp;nbsp;&lt;br&gt;&lt;br&gt;/ applicants /&amp;nbsp; &lt;br&gt;register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1270" y="280" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="APPLICANTS&lt;br&gt;PROFILE&lt;br&gt;&lt;br&gt;/ applicants /&amp;nbsp; &lt;br&gt;: id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="280" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="DASHBOARD APPLICANTS&lt;br&gt;&lt;br&gt;/ applicants /&amp;nbsp; &lt;br&gt;: id / dashboard" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1840" y="280" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="APPLICANTS&lt;br&gt;PROFILE&lt;br&gt;EDIT&lt;br&gt;&lt;br&gt;/ applicants /&amp;nbsp; &lt;br&gt;: id / edit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1650" y="280" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="ADMIN PROFILE&lt;br&gt;&lt;br&gt;/ admin / : id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1920" y="750" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="ADMIN PROFILE&lt;br&gt;EDIT&lt;br&gt;&lt;br&gt;/ admin / : id / edit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2120" y="750" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="HOME ADMIN&lt;br&gt;&lt;br&gt;/ admin" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1730" y="750" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="DASHBOARD&amp;nbsp; APPLICANT&lt;br&gt;&lt;br&gt;/ admin / applicant" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1720" y="960" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="DASHBOARD&amp;nbsp; ENTERPRISE&lt;br&gt;&lt;br&gt;/ admin / enterprise" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1720" y="1120" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="DASHBOARD&amp;nbsp; ADMINS&lt;br&gt;&lt;br&gt;/ admin / member" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="960" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="DASHBOARD&amp;nbsp; FOUNDATION&lt;br&gt;&lt;br&gt;/ admin / foundation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="1120" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="REGISTER ENTERPRISE&lt;br&gt;&lt;br&gt;/ admin / enterprise / register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1730" y="1270" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="PROFILE &lt;br&gt;ENTERPRISE&lt;br&gt;&lt;br&gt;/ admin / enterprise / &lt;br&gt;: id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1960" y="1270" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="EDIT PROFILE ENTERPRISE&lt;br&gt;&lt;br&gt;/ admin / enterprise / &lt;br&gt;: id / edit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2190" y="1270" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="REGISTER FOUNDATION&lt;br&gt;&lt;br&gt;/ admin / foundation / register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1300" y="1260" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="PROFILE FOUNDATION&lt;br&gt;&lt;br&gt;/ admin / foundation / &lt;br&gt;: id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1300" y="1410" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="EDIT PROFILE FOUNDATION&lt;br&gt;&lt;br&gt;/ admin / foundation / &lt;br&gt;: id / edit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1300" y="1550" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="REGISTER APPLICANT&lt;br&gt;&lt;br&gt;/ admin / applicant / register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1940" y="960" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="PROFILE APPLICANT&lt;br&gt;&lt;br&gt;/ admin / applicant / &lt;br&gt;: id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2160" y="960" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="EDIT PROFILE APPLICANT&lt;br&gt;&lt;br&gt;/ admin / applicant / &lt;br&gt;: id / edit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2390" y="960" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="REGISTER ADMINS&lt;br&gt;&lt;br&gt;/ admin / member / register" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="960" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="PROFILE ADMINS&lt;br&gt;&lt;br&gt;/ admin / member / &lt;br&gt;: id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="960" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="EDIT PROFILE &lt;br&gt;ADMINS&lt;br&gt;&lt;br&gt;/ admin / member / &lt;br&gt;: id / edit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="960" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="FOUNDATION OPERATION&lt;br&gt;&lt;br&gt;/ admin / foundation / : id / operation / : id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1270" y="1120" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="DASHBOARD&lt;br&gt;FOUNDATION&lt;br&gt;&amp;nbsp;ENTERPRISES&lt;br&gt;&lt;br&gt;/ admin / foundation / : id / enterprise" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="1120" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="FOUNDATION&lt;br&gt;&amp;nbsp;ENTERPRISE&lt;br&gt;&lt;br&gt;/ admin / foundation / : id / enterprise / : id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="1120" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="FOUNDATION OPERATION&lt;br&gt;&lt;br&gt;&amp;nbsp; / foundation / : id / operation / : id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="815" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="DASHBOARD&lt;br&gt;FOUNDATION&lt;br&gt;&amp;nbsp;ENTERPRISES&lt;br&gt;&lt;br&gt;&amp;nbsp;/ foundation / : id / enterprise" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="810" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="FOUNDATION&lt;br&gt;&amp;nbsp;ENTERPRISE&lt;br&gt;&lt;br&gt;&amp;nbsp;/ foundation / : id / enterprise / : id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="820" width="170" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

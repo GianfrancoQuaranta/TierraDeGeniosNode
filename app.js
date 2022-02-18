@@ -7,6 +7,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./src/routes/index');
 var usersRouter = require('./src/routes/users');
+const applicantsRoute = require('./src/routes/applicantsRoute')
 
 
 // view engine setup
@@ -15,7 +16,7 @@ app.set('view engine', 'ejs');
 
 // Configuración puerto servidor
 app.set("port", process.env.PORT || 3060);
-app.listen(app.get('port'), ()=>console.log('Server Start http://localhost' + app.get('port')));
+app.listen(app.get('port'), ()=>console.log('Server Start http://localhost:' + app.get('port')));
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -25,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use(applicantsRoute)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

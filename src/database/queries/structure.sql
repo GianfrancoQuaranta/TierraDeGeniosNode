@@ -24,9 +24,13 @@ CREATE TABLE applicants (
     programmation VARCHAR(250) NOT NULL,
     avatar VARCHAR(200) NOT NULL,
     password VARCHAR(100) NOT NULL,
+    phoneNumber INT(20) NOT NULL,
+    phoneNumber2 INT(20) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     PRIMARY KEY (id)
-)
+);
 
 CREATE TABLE donors (
     id INT(1) NOT NULL,
@@ -39,12 +43,14 @@ CREATE TABLE donors (
     avatar VARCHAR(100) NOT NULL,
     birthDate DATE NOT NULL,
     adress VARCHAR(100) NOT NULL,
-    number INT(100) NOT NULL,
+    phoneNumber INT(100) NOT NULL,
     country VARCHAR(100) NOT NULL,
     password VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     PRIMARY KEY (id)
-)
+);
 
 CREATE TABLE admin (
     id INT(10) NOT NULL,
@@ -52,9 +58,11 @@ CREATE TABLE admin (
     lastName VARCHAR(100) NOT NULL,
     password VARCHAR(100) NOT NULL,
     avatar VARCHAR(200) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     PRIMARY KEY (id)
-)
+);
 
 CREATE TABLE donations (
     id INT(10) NOT NULL,
@@ -64,10 +72,12 @@ CREATE TABLE donations (
     amountFees INT(100) NOT NULL,
     numberFee INT(100) NOT NULL,
     date DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     PRIMARY KEY (id),
     
     FOREIGN KEY (applicant_id) REFERENCES applicants (id),
     FOREIGN KEY (donor_id) REFERENCES donors (id)
-)
+);
 
